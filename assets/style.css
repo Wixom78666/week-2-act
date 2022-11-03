@@ -37,6 +37,7 @@ p {
     border-color: black;
     border-style: solid;
     background-color: brown;
+    font-size: xx-large;
 }
 
 li {
@@ -48,7 +49,7 @@ a {
     color: rgb(68, 4, 4); 
 }
 
-.work {
+#work {
     display: block;
     position: relative;
     left: 213px;
@@ -60,8 +61,21 @@ a {
     max-height: fit-content;
 }
 
-.aboutme {
+#aboutme {
     margin-bottom: 100px;
+}
+
+.first {
+    display: block;
+    position: relative;
+    padding: 100px;
+    left: 213px;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: brown;
+    max-width: fit-content;
+    max-height: fit-content;
 }
 
 #wh2 {
