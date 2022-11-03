@@ -1,20 +1,73 @@
-.aboutme {
-    color: rgb(18, 18, 19)
+* {
+    background-color: slategray;
+}
+
+header {
+    background-color: black;
+    color:aliceblue;
+}
+
+nav {
+    text-align: right;
 }
 
 h2 {
     float: left;
     margin: 50px;
     padding: 3px;
-    border: 2px;
-    border-style: dashed;
+    border: 7px;
+    border-style: ridge;
     border-color: rgb(214, 13, 13);
+    display: flex;
+}
+
+h3 {
+    margin: 5px;
+    display: block;
+}
+
+.card {
+    margin: 50px;
 }
 
 p {
     display: flex;
     border: 5px;
+    padding: 3px;
     border-color: black;
     border-style: solid;
     background-color: brown;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+/* Needed to select 'a' elements directly to change the font color. */
+a {
+    color: rgb(68, 4, 4); 
+}
+
+.work {
+    display: block;
+    position: relative;
+    left: 213px;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: brown;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.aboutme {
+    margin-bottom: 100px;
+}
+
+#wh2 {
+    margin-top: -70px;
+}
+
+#bigbig {
+    margin: 50px;
 }
