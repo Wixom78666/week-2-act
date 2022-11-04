@@ -1,16 +1,17 @@
 * {
     background-color: slategray;
 }
-
+/* The above makes whole page backround grey. */
+/* Bellow makes the backround in the header black and the text an off-white. */
 header {
     background-color: black;
     color:aliceblue;
 }
-
+/* Pushes the nav bar to the right of the screen */
 nav {
     text-align: right;
 }
-
+/* Sets color and spacing for the titles of each section of the sections and puts the title on the left of each correspoding item. */
 h2 {
     float: left;
     margin: 50px;
@@ -25,11 +26,11 @@ h3 {
     margin: 5px;
     display: block;
 }
-
+/* Sets smaller area for project links 2-5. */
 .card {
     margin: 50px;
 }
-
+/* Gives styling to the 'About Me' content*/
 p {
     display: flex;
     border: 5px;
@@ -48,7 +49,7 @@ li {
 a {
     color: rgb(68, 4, 4); 
 }
-
+/* Gives the structure and style to the section holding prokects 2-5 */
 #work {
     display: block;
     position: relative;
@@ -60,11 +61,11 @@ a {
     max-width: fit-content;
     max-height: fit-content;
 }
-
+/* Used this to push the h2 'Work' down and away from the h2  */
 #aboutme {
     margin-bottom: 100px;
 }
-
+/* Since the first project is separated from the others i used these styling effects to match the other projects' color setting but also to make it larger than the others. */
 .first {
     display: block;
     position: relative;
@@ -85,3 +86,27 @@ a {
 #bigbig {
     margin: 50px;
 }
+
+@media screen and (max-width: 680px) {
+    li {
+      display: block;
+    }
+    /* Make the sidebar stack below the body */
+    aside {
+      order: 2;
+    }
+    /* Change the header background */
+    header {
+      background-color: #772014;
+    }
+    /* Change the navbar and footer background */
+    nav,
+    footer {
+      background-color: #bb8588;
+    }
+    
+    p {
+        font-size: small;
+    }
+  }
+  
